@@ -1,0 +1,63 @@
+
+.card1 {
+   width: 400px;
+   height: 700px;
+   background-color: burlywood;
+   border-radius: 60px;
+   position: absolute;
+   top: 20px;
+   left: 20px;
+   transition: 1s;
+
+
+}
+.card2 {
+   width: 400px;
+   height: 700px;
+   background-color: burlywood;
+   border-radius: 60px;
+   position: absolute;
+   top: 20px;
+   left: 435px;
+   transition: 1s;
+
+}
+.card3 {
+   width: 400px;
+   height: 700px;
+   background-color: burlywood;
+   border-radius: 60px;
+   position: absolute;
+   top: 20px;
+   left: 850px;
+   transition: 1s;
+}
+.photo img {
+    width: 65%;
+    height: 60%;
+    border-radius: 60px;
+    object-fit: cover;
+    padding: 20px;
+    position: absolute;
+    top: 225px;
+    left: 10px;
+    transition: 1s
+}
+.info {
+    width: 90%;
+    padding: 20px;
+    transition: 1s
+}
+div:hover{
+
+   width: 600px;
+   transition: 1s;
+   background-color:DarkOliveGreen;
+   text-color:LightYellow;
+   h1::first-line{
+   color: OrangeRed;
+   background-color: DarkOliveGreen;
+   font-size: 90px
+}
+}
+
